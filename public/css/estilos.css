@@ -1,0 +1,186 @@
+/* Menu de navegacion */
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+
+.ancho {
+    width: 80%;
+    height: 70px;
+    
+    margin: auto;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    float: left;
+    text-align: center;
+}
+
+nav ul li {
+    
+    list-style: none;
+    display: inline-block;
+    line-height: 40px;
+    /* padding-right: 40px; */
+}
+
+nav ul li a{
+    text-decoration: none !important;
+    color: #fff;
+    padding: 15px;
+    letter-spacing: 1px;
+    font-family:'Roboto', sans-serif;
+    display: block;
+}
+
+
+/* Login */
+
+.content-inicio{
+    margin-top:150px
+}
+
+
+
+div.title{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+div.content-col-1{
+    
+    background-color:#3A3D6E ;
+}
+
+div.content-col-1 .title{
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+     padding-top: 30px;
+     color: #60BAAF;
+}
+
+div.content-col-2 .title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+}
+div.content-col-2, div.content-col-1 .message{
+    text-align: center;
+    color: #8c8c8c;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-top: 30px;
+}
+
+div.content-col-2 img{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.estilo-caja{
+    border-radius: 0 !important;
+    background-color: #3A3D6E;
+    color: #ffffff;
+}
+
+.content-formulario{
+    /* display: inline-block; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.boton-ingresar{
+    padding-top: 20px;
+}
+
+.btn-info {
+    /* margin: 0 auto; */
+    text-align: center;
+    background-color: #000000;
+    border-color: #000000 !important;
+    border-radius: 0;
+}
+
+.btn-info:hover{
+    border-color: #ffffff !important;
+}
+
+.info-sin-cuenta{
+    color: #8c8c8c;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+}
+
+.info-sin-cuenta span{
+    color:#60BAAF;
+}
+
+/* ESTILOS INICIO  */
+.caja-info{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+/* ESTILOS MOVIESERIE SHOW */
+
+.card-movieserie{
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 2.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+
+.raiting,
+.premiere,
+.genres{
+    color: #ffffff;
+}
+
+.raiting span,
+.premiere span,
+.genres span{
+
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+
+.subtitle{
+    color:#000000;
+}
+
+.subtitle span{
+    color:#000000;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondo{
+    
+    background-color: #333333;
+}
+
+
+
